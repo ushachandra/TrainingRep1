@@ -10,6 +10,6 @@ class HelloWorldProgram {
         catch(Exception e) {
            System.out.println("Caught an exception!"); 
         }
-    System.out.println("Hello " + name + "!"); 
+    System.out.println("Hello " + name + "!" + " welcome to GitHub Training" ); 
   }
 }
