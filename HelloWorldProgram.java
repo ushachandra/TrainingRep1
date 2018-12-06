@@ -16,5 +16,8 @@ class HelloWorldProgram {
     System.out.println("Hello " + name + "!" + " welcome to GitHub Training" ); 
     }
     
+    //add extra print stats
+    System.out.println("This is Day 4 of Git Hub Training" ); 
+    
   }
 }
