@@ -5,15 +5,22 @@ class HelloWorldProgram {
     BufferedReader in = 
         new BufferedReader(new InputStreamReader(System.in)); 
     String name = "Instructor"; 
+    String qualification ="B.E";
     System.out.print("Give your name: "); 
+    System.out.print("Give your Qualification: ");
     try {name = in.readLine();}
+        catch(Exception e) {
+           System.out.println("Caught an exception!"); 
+        }
+     try {qualification = in.readLine();}
         catch(Exception e) {
            System.out.println("Caught an exception!"); 
         }
     
     // add for loop
     For (int i = 0 ; i < 10 ; ++i) {
-    System.out.println("Hello " + name + "!" + " welcome to GitHub Training" ); 
+    System.out.println("Hello " + name + "!" + " welcome to GitHub Training" );
+    System.out.println("Qualification:"+qualification);
     }
     
     //add extra print stats
