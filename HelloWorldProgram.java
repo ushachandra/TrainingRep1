@@ -18,6 +18,7 @@ class HelloWorldProgram {
     
     //add extra print stats
     System.out.println("This is Day 4 of Git Hub Training" ); 
+    System.out.println("You will learn the diff between fetch and pull" ); 
     
   }
 }
