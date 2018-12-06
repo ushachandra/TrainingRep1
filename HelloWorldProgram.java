@@ -18,7 +18,7 @@ class HelloWorldProgram {
         }
     
     // add for loop
-    For (int i = 0 ; i < 10 ; ++i) {
+    For (int i = 0 ; i < 15 ; ++i) {
     System.out.println("Hello " + name + "!" + " welcome to GitHub Training" );
     System.out.println("Qualification:"+qualification);
     }
