@@ -12,7 +12,7 @@ class HelloWorldProgram {
         }
     
     // add for loop
-    For (int i = 0 ; i < 5 ; ++i) {
+    For (int i = 0 ; i < 10 ; ++i) {
     System.out.println("Hello " + name + "!" + " welcome to GitHub Training" ); 
     }
     
